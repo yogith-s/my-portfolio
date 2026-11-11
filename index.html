@@ -1,1 +1,244 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogith S | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #111c33;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        section h2 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #1e293b;
+            padding: 10px 18px;
+            border-radius: 20px;
+            border: 1px solid #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111c33;
+            color: #cbd5e1;
+        }
+
+        a {
+            color: #38bdf8;
+        }
+
+        @media(max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            header {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>YOGITH S</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hello, I'm <span>Yogith S</span></h1>
+    <h3>Computer Science Student | Aspiring Researcher</h3>
+    <p>
+        Passionate about technology, economics, public policy
+        and solving real-world problems through knowledge,
+        innovation and continuous learning.
+    </p>
+    <a href="#about" class="btn">Explore My Portfolio</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a third-year B.Sc. Computer Science student at
+            KPR College of Arts Science and Research.
+            I am interested in exploring the intersection of
+            technology, economics, society and public policy.
+            I believe in continuous learning, practical experience
+            and contributing positively to society.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Bachelor of Science – Computer Science</h3>
+        <p>KPR College of Arts Science and Research</p>
+        <p>Currently pursuing Third Year</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills & Interests</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>MySQL</span>
+        <span>GitHub</span>
+        <span>Research</span>
+        <span>Economics</span>
+        <span>Public Policy</span>
+        <span>Communication</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects & Activities</h2>
+
+    <div class="card">
+        <h3>GitHub Contributions</h3>
+        <p>
+            Exploring open-source platforms and learning
+            collaborative software development through GitHub.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Research & Academic Writing</h3>
+        <p>
+            Exploring research, academic writing and
+            socially relevant topics.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Web Development</h3>
+        <p>
+            Developing personal web projects to improve
+            front-end development skills.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>GitHub:
+            <a href="https://github.com/yogith-s" target="_blank">
+                github.com/yogith-s
+            </a>
+        </p>
+        <p>Let's connect and learn together!</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Yogith S | Personal Portfolio</p>
+    <p>Built with HTML and CSS</p>
+</footer>
+
+</body>
+</html>
+
